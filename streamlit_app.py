@@ -85,13 +85,13 @@ people who can help me grow.
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.link_button("LinkedIn", "https://www.linkedin.com/")
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/rounak-bhatiya/")
 
 with col2:
-    st.link_button("GitHub", "https://github.com/")
+    st.link_button("GitHub", "https://github.com/rounakb2912")
 
 with col3:
-    st.link_button("Email Me", "mailto:your@email.com")
+    st.link_button("Email Me", "mailto:bhatiarounak467@gmail.com")
 
 
 # ---------- ABOUT ----------
@@ -143,7 +143,7 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
-    st.link_button("View Project", "https://github.com/")
+    st.link_button("View Project", "https://github.com/rounakb2912/Something/edit/main/streamlit_app.py")
 
 
 with col2:
