@@ -137,8 +137,8 @@ with col1:
     <div class="card">
     <h3>🚀 Project One</h3>
     <p>
-    Short description of your project.
-    Explain what you built and what technology you used.
+    University Of Michigan certificate for Computational Thinking course.
+    st.link_button("View Project", "https://coursera.org/share/f619f52046223762feaa7f8b21630799")
     </p>
     </div>
     """, unsafe_allow_html=True)
