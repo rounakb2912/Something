@@ -143,21 +143,8 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
-    st.link_button("View Project", "https://github.com/rounakb2912/Something/edit/main/streamlit_app.py")
+    st.link_button("View Project", "https://coursera.org/share/f619f52046223762feaa7f8b21630799")
 
-
-with col2:
-    st.markdown("""
-    <div class="card">
-    <h3>💡 Project Two</h3>
-    <p>
-    Another project that demonstrates your skills
-    and what you're currently learning.
-    </p>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.link_button("View Project", "https://github.com/")
 
 
 # ---------- CURRENTLY LEARNING ----------
@@ -180,14 +167,7 @@ st.markdown("""
 
 🏆 Certificate / Achievement 1
 
-<br><br>
-
-🏆 Certificate / Achievement 2
-
-<br><br>
-
-🏆 Hackathon / Competition
-
+    st.link_button("View Certificate","https://coursera.org/share/f619f52046223762feaa7f8b21630799"
 </div>
 """, unsafe_allow_html=True)
 
@@ -196,7 +176,8 @@ st.markdown("""
 st.header("Let's Connect 🤝")
 
 st.write(
-    "I'm always interested in meeting developers, seniors, "
+    "I'm always interested in meeting developers, seniors,"
+    "fellow learners"
     "mentors and people working in technology."
 )
 
