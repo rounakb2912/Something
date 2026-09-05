@@ -138,7 +138,6 @@ with col1:
     <h3>🚀 Project One</h3>
     <p>
     University Of Michigan certificate for Computational Thinking course.
-    st.link_button("View Project", "https://coursera.org/share/f619f52046223762feaa7f8b21630799")
     </p>
     </div>
     """, unsafe_allow_html=True)
@@ -167,7 +166,7 @@ st.markdown("""
 
 🏆 Certificate / Achievement 1
 
-    st.link_button("View Certificate","https://coursera.org/share/f619f52046223762feaa7f8b21630799"
+    st.link_button("View Certificate","https://coursera.org/share/f619f52046223762feaa7f8b21630799")
 </div>
 """, unsafe_allow_html=True)
 
