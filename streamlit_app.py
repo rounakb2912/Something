@@ -157,20 +157,6 @@ st.write("""
 - Git & GitHub
 """)
 
-
-# ---------- ACHIEVEMENTS ----------
-st.header("Achievements & Certificates")
-
-st.markdown("""
-<div class="card">
-
-🏆 Certificate / Achievement 1
-
-    st.link_button("View Certificate","https://coursera.org/share/f619f52046223762feaa7f8b21630799")
-</div>
-""", unsafe_allow_html=True)
-
-
 # ---------- CONNECT ----------
 st.header("Let's Connect 🤝")
 
