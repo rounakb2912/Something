@@ -37,6 +37,7 @@ st.markdown("""
 .hero p {
     font-size: 20px;
     color: #94a3b8;
+    font-family: "Comic Sans MS";
 }
 
 .section {
@@ -121,7 +122,7 @@ with col2:
     st.markdown("### 🗄️ SQL")
 
 with col3:
-    st.markdown("### 🤖 AI / ML")
+    st.markdown("### 🤖 backend(Basics)")
 
 with col4:
     st.markdown("### 🌐 Web")
@@ -150,10 +151,8 @@ with col1:
 st.header("Currently Learning")
 
 st.write("""
-- Python
-- SQL
 - AI / Machine Learning
-- Streamlit
+- Javascript
 - Git & GitHub
 """)
 
@@ -162,7 +161,7 @@ st.header("Let's Connect 🤝")
 
 st.write(
     "I'm always interested in meeting developers, seniors,"
-    "fellow learners"
+    "fellow learners,"
     "mentors and people working in technology."
 )
 
