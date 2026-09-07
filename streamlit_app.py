@@ -10,6 +10,7 @@ st.set_page_config(
     page_icon="🚀",
     layout="wide"
 )
+st.write("This is a basic website made by Rounak Bhatiya")
 
 # ---------- CUSTOM CSS ----------
 st.markdown("""
