@@ -7,7 +7,6 @@ from datetime import datetime, date
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
     page_title="My Digital Profile",
-    page_icon="🚀",
     layout="wide"
 )
 st.write("This is a basic website made by Rounak Bhatiya")
@@ -102,7 +101,7 @@ st.markdown('<div class="section">', unsafe_allow_html=True)
 st.header("About Me")
 
 st.write("""
-I'm currently learning software development, Python, SQL and AI/ML.
+I'm currently learning JavaScript, Backend stuff and more.
 
 I enjoy building things, experimenting with technology and learning
 from people who are more experienced than me.
@@ -117,27 +116,27 @@ st.header("Skills")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.markdown("### 🐍 Python")
+    st.markdown(" Python")
     
 with col2:
-    st.markdown("### 🗄️ SQL")
+    st.markdown("SQL")
 
 with col3:
-    st.markdown("### 🤖 backend(Basics)")
+    st.markdown("backend(react.js,node.js)")
 
 with col4:
-    st.markdown("### 🌐 Web")
+    st.markdown("Web")
 
 
 # ---------- PROJECTS ----------
-st.header("Projects")
+st.header("Certifications")
 
 col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("""
     <div class="card">
-    <h3>🚀 Project One</h3>
+    <h3>Coursera</h3>
     <p>
     University Of Michigan certificate for Computational Thinking course.
     </p>
@@ -161,9 +160,7 @@ st.write("""
 st.header("Let's Connect 🤝")
 
 st.write(
-    "I'm always interested in meeting developers, seniors,"
-    "fellow learners,"
-    "mentors and people working in technology."
+    "I'm always interested in meeting developers,seniors,fellow learners,mentors and people working in technology."
 )
 
 st.link_button(
@@ -171,8 +168,3 @@ st.link_button(
     "https://www.linkedin.com/in/rounak-bhatiya/"
 )
 
-
-# ---------- FOOTER ----------
-st.markdown("---")
-
-st.caption("Built with Python + Streamlit 🚀")
