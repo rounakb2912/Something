@@ -4,14 +4,12 @@ import random
 import os
 from datetime import datetime, date
 
-# ---------- PAGE CONFIG ----------
 st.set_page_config(
     page_title="My Digital Profile",
     layout="wide"
 )
 st.write("This is a basic website made by Rounak Bhatiya")
 
-# ---------- CUSTOM CSS ----------
 st.markdown("""
 <style>
 
@@ -63,7 +61,6 @@ a {
 """, unsafe_allow_html=True)
 
 
-# ---------- HERO ----------
 st.markdown("""
 <div class="hero">
 
@@ -82,7 +79,6 @@ people who can help me grow.
 """, unsafe_allow_html=True)
 
 
-# ---------- SOCIAL LINKS ----------
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -95,7 +91,6 @@ with col3:
     st.link_button("Email Me", "mailto:bhatiarounak467@gmail.com")
 
 
-# ---------- ABOUT ----------
 st.markdown('<div class="section">', unsafe_allow_html=True)
 
 st.header("About Me")
@@ -110,7 +105,6 @@ from people who are more experienced than me.
 st.markdown('</div>', unsafe_allow_html=True)
 
 
-# ---------- SKILLS ----------
 st.header("Skills")
 
 col1, col2, col3, col4 = st.columns(4)
@@ -127,8 +121,6 @@ with col3:
 with col4:
     st.markdown("Web")
 
-
-# ---------- PROJECTS ----------
 st.header("Certifications")
 
 col1, col2 = st.columns(2)
@@ -146,8 +138,6 @@ with col1:
     st.link_button("View Project", "https://coursera.org/share/f619f52046223762feaa7f8b21630799")
 
 
-
-# ---------- CURRENTLY LEARNING ----------
 st.header("Currently Learning")
 
 st.write("""
@@ -156,7 +146,6 @@ st.write("""
 - Git & GitHub
 """)
 
-# ---------- CONNECT ----------
 st.header("Let's Connect 🤝")
 
 st.write(
