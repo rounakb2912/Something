@@ -107,7 +107,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 st.header("Skills")
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown(" Python")
@@ -116,10 +116,7 @@ with col2:
     st.markdown("SQL")
 
 with col3:
-    st.markdown("backend(react.js,node.js)")
-
-with col4:
-    st.markdown("Web")
+    st.markdown("Web(HTML,CSS")
 
 st.header("Certifications")
 
@@ -136,6 +133,18 @@ with col1:
     """, unsafe_allow_html=True)
 
     st.link_button("View Project", "https://coursera.org/share/f619f52046223762feaa7f8b21630799")
+
+with col2:
+    st.markdown("""
+    <div class="card">
+    <h3>Matlab</h3>
+    <p>Symbolic Math Onramp by Matlab Mathworks
+    </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.link_button("View Project","https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f5fe1452-71e7-4391-9bcc-3951e9e027aa&")
+
 
 
 st.header("Currently Learning")
